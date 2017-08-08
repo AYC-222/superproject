@@ -1,0 +1,88 @@
+[submodule "app/avb"]
+	branch = master
+	path = app/avb
+	url = ../app/avb
+[submodule "app/gatekeeper"]
+	branch = master
+	path = app/gatekeeper
+	url = ../app/gatekeeper
+[submodule "app/keymaster"]
+	branch = master
+	path = app/keymaster
+	url = ../app/keymaster
+[submodule "app/sample"]
+	branch = master
+	path = app/sample
+	url = ../app/sample
+[submodule "app/storage"]
+	branch = master
+	path = app/storage
+	url = ../app/storage
+[submodule "device/arm/generic-arm64"]
+	branch = master
+	path = device/arm/generic-arm64
+	url = ../device/arm/generic-arm64
+[submodule "device/arm/vexpress-a15"]
+	branch = master
+	path = device/arm/vexpress-a15
+	url = ../device/arm/vexpress-a15
+[submodule "external/headers"]
+	branch = master
+	path = external/headers
+	url = ../external/headers
+[submodule "external/lk"]
+	branch = master
+	path = external/lk
+	url = ../lk/common
+[submodule "external/openssl"]
+	branch = master
+	path = external/openssl
+	url = ../../platform/external/boringssl
+[submodule "external/qemu"]
+	branch = master
+	path = external/qemu
+	url = ../external/qemu
+[submodule "hardware/libhardware"]
+	branch = master
+	path = hardware/libhardware
+	url = ../../platform/hardware/libhardware
+[submodule "lib"]
+	branch = master
+	path = lib
+	url = ../lib
+[submodule "lk/trusty"]
+	branch = master
+	path = lk/trusty
+	url = ../lk/trusty
+[submodule "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8"]
+	branch = master
+	path = prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
+[submodule "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"]
+	branch = master
+	path = prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+	url = ../../platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+[submodule "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"]
+	branch = master
+	path = prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
+[submodule "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"]
+	branch = master
+	path = prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+[submodule "system/gatekeeper"]
+	branch = master
+	path = system/gatekeeper
+	url = ../../platform/system/gatekeeper
+[submodule "system/iot/attestation"]
+	branch = master
+	path = system/iot/attestation
+	url = ../../platform/system/iot/attestation
+[submodule "system/keymaster"]
+	branch = master
+	path = system/keymaster
+	url = ../../platform/system/keymaster
+[submodule "vendor/google/aosp"]
+	branch = master
+	path = vendor/google/aosp
+	url = ../vendor/google/aosp
