@@ -54,6 +54,10 @@
 	branch = master
 	path = lk/trusty
 	url = ../lk/trusty
+[submodule "prebuilts/clang/host/linux-x86"]
+	branch = master
+	path = prebuilts/clang/host/linux-x86
+	url = ../../platform/prebuilts/clang/host/linux-x86
 [submodule "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8"]
 	branch = master
 	path = prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
