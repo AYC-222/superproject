@@ -26,6 +26,10 @@
 	branch = master
 	path = device/arm/vexpress-a15
 	url = ../device/arm/vexpress-a15
+[submodule "external/googletest"]
+	branch = master
+	path = external/googletest
+	url = ../../platform/external/googletest
 [submodule "external/headers"]
 	branch = master
 	path = external/headers
