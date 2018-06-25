@@ -90,6 +90,10 @@
 	branch = master
 	path = system/keymaster
 	url = ../../platform/system/keymaster
+[submodule "tools/repohooks"]
+	branch = master
+	path = tools/repohooks
+	url = ../../platform/tools/repohooks
 [submodule "vendor/google/aosp"]
 	branch = master
 	path = vendor/google/aosp
