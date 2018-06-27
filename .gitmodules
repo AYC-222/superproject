@@ -26,6 +26,10 @@
 	branch = master
 	path = device/arm/vexpress-a15
 	url = ../device/arm/vexpress-a15
+[submodule "device/nxp/imx7d"]
+	branch = master
+	path = device/nxp/imx7d
+	url = ../device/nxp/imx7d
 [submodule "external/googletest"]
 	branch = master
 	path = external/googletest
@@ -38,6 +42,10 @@
 	branch = master
 	path = external/lk
 	url = ../lk/common
+[submodule "external/nanopb-c"]
+	branch = master
+	path = external/nanopb-c
+	url = ../../platform/external/nanopb-c
 [submodule "external/openssl"]
 	branch = master
 	path = external/openssl
@@ -54,6 +62,10 @@
 	branch = master
 	path = lib
 	url = ../lib
+[submodule "lk/nxp"]
+	branch = master
+	path = lk/nxp
+	url = ../lk/nxp
 [submodule "lk/trusty"]
 	branch = master
 	path = lk/trusty
@@ -78,6 +90,10 @@
 	branch = master
 	path = prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+[submodule "prebuilts/tools"]
+	branch = master
+	path = prebuilts/tools
+	url = ../../platform/prebuilts/tools
 [submodule "system/gatekeeper"]
 	branch = master
 	path = system/gatekeeper
