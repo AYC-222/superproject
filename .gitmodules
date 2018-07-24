@@ -30,6 +30,10 @@
 	branch = master
 	path = device/nxp/imx7d
 	url = ../device/nxp/imx7d
+[submodule "external/boringssl"]
+	branch = master
+	path = external/boringssl
+	url = ../../platform/external/boringssl
 [submodule "external/googletest"]
 	branch = master
 	path = external/googletest
@@ -46,10 +50,6 @@
 	branch = master
 	path = external/nanopb-c
 	url = ../../platform/external/nanopb-c
-[submodule "external/openssl"]
-	branch = master
-	path = external/openssl
-	url = ../../platform/external/boringssl
 [submodule "external/qemu"]
 	branch = master
 	path = external/qemu
