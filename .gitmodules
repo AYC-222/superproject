@@ -1,35 +1,3 @@
-[submodule "app/avb"]
-	branch = master
-	path = app/avb
-	url = ../app/avb
-[submodule "app/gatekeeper"]
-	branch = master
-	path = app/gatekeeper
-	url = ../app/gatekeeper
-[submodule "app/keymaster"]
-	branch = master
-	path = app/keymaster
-	url = ../app/keymaster
-[submodule "app/sample"]
-	branch = master
-	path = app/sample
-	url = ../app/sample
-[submodule "app/storage"]
-	branch = master
-	path = app/storage
-	url = ../app/storage
-[submodule "device/arm/generic-arm64"]
-	branch = master
-	path = device/arm/generic-arm64
-	url = ../device/arm/generic-arm64
-[submodule "device/arm/vexpress-a15"]
-	branch = master
-	path = device/arm/vexpress-a15
-	url = ../device/arm/vexpress-a15
-[submodule "device/nxp/imx7d"]
-	branch = master
-	path = device/nxp/imx7d
-	url = ../device/nxp/imx7d
 [submodule "external/boringssl"]
 	branch = master
 	path = external/boringssl
@@ -58,18 +26,6 @@
 	branch = master
 	path = hardware/libhardware
 	url = ../../platform/hardware/libhardware
-[submodule "lib"]
-	branch = master
-	path = lib
-	url = ../lib
-[submodule "lk/nxp"]
-	branch = master
-	path = lk/nxp
-	url = ../lk/nxp
-[submodule "lk/trusty"]
-	branch = master
-	path = lk/trusty
-	url = ../lk/trusty
 [submodule "prebuilts/clang/host/linux-x86"]
 	branch = master
 	path = prebuilts/clang/host/linux-x86
@@ -110,7 +66,51 @@
 	branch = master
 	path = tools/repohooks
 	url = ../../platform/tools/repohooks
-[submodule "vendor/google/aosp"]
+[submodule "trusty/device/arm/generic-arm64"]
 	branch = master
-	path = vendor/google/aosp
+	path = trusty/device/arm/generic-arm64
+	url = ../device/arm/generic-arm64
+[submodule "trusty/device/arm/vexpress-a15"]
+	branch = master
+	path = trusty/device/arm/vexpress-a15
+	url = ../device/arm/vexpress-a15
+[submodule "trusty/device/nxp/imx7d"]
+	branch = master
+	path = trusty/device/nxp/imx7d
+	url = ../device/nxp/imx7d
+[submodule "trusty/hardware/nxp"]
+	branch = master
+	path = trusty/hardware/nxp
+	url = ../lk/nxp
+[submodule "trusty/kernel"]
+	branch = master
+	path = trusty/kernel
+	url = ../lk/trusty
+[submodule "trusty/user/app/avb"]
+	branch = master
+	path = trusty/user/app/avb
+	url = ../app/avb
+[submodule "trusty/user/app/gatekeeper"]
+	branch = master
+	path = trusty/user/app/gatekeeper
+	url = ../app/gatekeeper
+[submodule "trusty/user/app/keymaster"]
+	branch = master
+	path = trusty/user/app/keymaster
+	url = ../app/keymaster
+[submodule "trusty/user/app/sample"]
+	branch = master
+	path = trusty/user/app/sample
+	url = ../app/sample
+[submodule "trusty/user/app/storage"]
+	branch = master
+	path = trusty/user/app/storage
+	url = ../app/storage
+[submodule "trusty/user/base"]
+	branch = master
+	path = trusty/user/base
+	url = ../lib
+[submodule "trusty/vendor/google/aosp"]
+	branch = master
+	path = trusty/vendor/google/aosp
 	url = ../vendor/google/aosp
