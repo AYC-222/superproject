@@ -1,71 +1,79 @@
-[submodule "external/boringssl"]
+[submodule "platform/external/boringssl"]
 	branch = master
 	path = external/boringssl
 	url = ../../platform/external/boringssl
-[submodule "external/googletest"]
+[submodule "platform/external/googletest"]
 	branch = master
 	path = external/googletest
 	url = ../../platform/external/googletest
-[submodule "external/headers"]
-	branch = master
-	path = external/headers
-	url = ../external/headers
-[submodule "external/lk"]
-	branch = master
-	path = external/lk
-	url = ../lk/common
-[submodule "external/nanopb-c"]
+[submodule "platform/external/nanopb-c"]
 	branch = master
 	path = external/nanopb-c
 	url = ../../platform/external/nanopb-c
-[submodule "external/qemu"]
-	branch = master
-	path = external/qemu
-	url = ../external/qemu
-[submodule "hardware/libhardware"]
+[submodule "platform/hardware/libhardware"]
 	branch = master
 	path = hardware/libhardware
 	url = ../../platform/hardware/libhardware
-[submodule "prebuilts/clang/host/linux-x86"]
+[submodule "platform/prebuilts/clang/host/linux-x86"]
 	branch = master
 	path = prebuilts/clang/host/linux-x86
 	url = ../../platform/prebuilts/clang/host/linux-x86
-[submodule "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8"]
+[submodule "platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8"]
 	branch = master
 	path = prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
 	url = ../../platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
-[submodule "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"]
+[submodule "platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"]
 	branch = master
 	path = prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 	url = ../../platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
-[submodule "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"]
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"]
 	branch = master
 	path = prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
 	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
-[submodule "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"]
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"]
 	branch = master
 	path = prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
-[submodule "prebuilts/tools"]
-	branch = master
-	path = prebuilts/tools
-	url = ../../platform/prebuilts/tools
-[submodule "system/gatekeeper"]
+[submodule "platform/prebuilts/libprotobuf/linux"]
+	branch = trusty
+	path = prebuilts/libprotobuf
+	url = ../../platform/prebuilts/libprotobuf/linux
+[submodule "platform/system/gatekeeper"]
 	branch = master
 	path = system/gatekeeper
 	url = ../../platform/system/gatekeeper
-[submodule "system/iot/attestation"]
+[submodule "platform/system/iot/attestation"]
 	branch = master
 	path = system/iot/attestation
 	url = ../../platform/system/iot/attestation
-[submodule "system/keymaster"]
+[submodule "platform/system/keymaster"]
 	branch = master
 	path = system/keymaster
 	url = ../../platform/system/keymaster
-[submodule "tools/repohooks"]
+[submodule "platform/tools/repohooks"]
 	branch = master
 	path = tools/repohooks
 	url = ../../platform/tools/repohooks
+[submodule "trusty/app/avb"]
+	branch = master
+	path = trusty/user/app/avb
+	url = ../app/avb
+[submodule "trusty/app/gatekeeper"]
+	branch = master
+	path = trusty/user/app/gatekeeper
+	url = ../app/gatekeeper
+[submodule "trusty/app/keymaster"]
+	branch = master
+	path = trusty/user/app/keymaster
+	url = ../app/keymaster
+[submodule "trusty/app/sample"]
+	branch = master
+	path = trusty/user/app/sample
+	url = ../app/sample
+[submodule "trusty/app/storage"]
+	branch = master
+	path = trusty/user/app/storage
+	url = ../app/storage
 [submodule "trusty/device/arm/generic-arm64"]
 	branch = master
 	path = trusty/device/arm/generic-arm64
@@ -78,38 +86,30 @@
 	branch = master
 	path = trusty/device/nxp/imx7d
 	url = ../device/nxp/imx7d
-[submodule "trusty/hardware/nxp"]
+[submodule "trusty/external/headers"]
 	branch = master
-	path = trusty/hardware/nxp
-	url = ../lk/nxp
-[submodule "trusty/kernel"]
+	path = external/headers
+	url = ../external/headers
+[submodule "trusty/external/qemu"]
 	branch = master
-	path = trusty/kernel
-	url = ../lk/trusty
-[submodule "trusty/user/app/avb"]
-	branch = master
-	path = trusty/user/app/avb
-	url = ../app/avb
-[submodule "trusty/user/app/gatekeeper"]
-	branch = master
-	path = trusty/user/app/gatekeeper
-	url = ../app/gatekeeper
-[submodule "trusty/user/app/keymaster"]
-	branch = master
-	path = trusty/user/app/keymaster
-	url = ../app/keymaster
-[submodule "trusty/user/app/sample"]
-	branch = master
-	path = trusty/user/app/sample
-	url = ../app/sample
-[submodule "trusty/user/app/storage"]
-	branch = master
-	path = trusty/user/app/storage
-	url = ../app/storage
-[submodule "trusty/user/base"]
+	path = external/qemu
+	url = ../external/qemu
+[submodule "trusty/lib"]
 	branch = master
 	path = trusty/user/base
 	url = ../lib
+[submodule "trusty/lk/common"]
+	branch = master
+	path = external/lk
+	url = ../lk/common
+[submodule "trusty/lk/nxp"]
+	branch = master
+	path = trusty/hardware/nxp
+	url = ../lk/nxp
+[submodule "trusty/lk/trusty"]
+	branch = master
+	path = trusty/kernel
+	url = ../lk/trusty
 [submodule "trusty/vendor/google/aosp"]
 	branch = master
 	path = trusty/vendor/google/aosp
