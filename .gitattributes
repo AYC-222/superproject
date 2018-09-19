@@ -7,6 +7,7 @@
 /prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 trusty
 /prebuilts/gcc/linux-x86/arm/arm-eabi-4.8 trusty
 /prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9 trusty
+/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9 trusty
 /prebuilts/libprotobuf trusty
 /system/gatekeeper trusty
 /system/iot/attestation trusty
@@ -20,6 +21,7 @@
 /trusty/device/arm/generic-arm64 trusty
 /trusty/device/arm/vexpress-a15 trusty
 /trusty/device/nxp/imx7d trusty
+/trusty/device/x86/generic-x86_64 trusty
 /external/headers trusty
 /external/qemu trusty
 /trusty/user/base trusty

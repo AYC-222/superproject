@@ -34,6 +34,11 @@
 	branch = master
 	path = prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+[submodule "platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"]
+	branch = master
+	shallow = true
+	path = prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
+	url = ../../platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
 [submodule "platform/prebuilts/libprotobuf/linux"]
 	branch = trusty
 	path = prebuilts/libprotobuf
@@ -86,6 +91,10 @@
 	branch = master
 	path = trusty/device/nxp/imx7d
 	url = ../device/nxp/imx7d
+[submodule "trusty/device/x86/generic-x86_64"]
+	branch = master
+	path = trusty/device/x86/generic-x86_64
+	url = ../device/x86/generic-x86_64
 [submodule "trusty/external/headers"]
 	branch = master
 	path = external/headers
