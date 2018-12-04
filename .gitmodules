@@ -103,6 +103,10 @@
 	branch = master
 	path = external/qemu
 	url = ../external/qemu
+[submodule "trusty/external/trusty"]
+	branch = master
+	path = external/trusty
+	url = ../external/trusty
 [submodule "trusty/lib"]
 	branch = master
 	path = trusty/user/base

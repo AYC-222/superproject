@@ -24,6 +24,7 @@
 /trusty/device/x86/generic-x86_64 trusty
 /external/headers trusty
 /external/qemu trusty
+/external/trusty trusty
 /trusty/user/base trusty
 /external/lk trusty
 /trusty/hardware/nxp trusty
