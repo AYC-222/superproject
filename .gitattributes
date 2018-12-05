@@ -1,4 +1,6 @@
 /external/boringssl trusty
+/external/capstone trusty
+/external/dtc trusty
 /external/googletest trusty
 /external/nanopb-c trusty
 /hardware/libhardware trusty
@@ -24,6 +26,7 @@
 /trusty/device/x86/generic-x86_64 trusty
 /external/headers trusty
 /external/qemu trusty
+/external/qemu-keycodemapdb trusty
 /external/trusty trusty
 /trusty/user/base trusty
 /external/lk trusty

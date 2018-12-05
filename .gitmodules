@@ -2,6 +2,14 @@
 	branch = master
 	path = external/boringssl
 	url = ../../platform/external/boringssl
+[submodule "platform/external/capstone"]
+	branch = master
+	path = external/capstone
+	url = ../../platform/external/capstone
+[submodule "platform/external/dtc"]
+	branch = master
+	path = external/dtc
+	url = ../../platform/external/dtc
 [submodule "platform/external/googletest"]
 	branch = master
 	path = external/googletest
@@ -103,6 +111,9 @@
 	branch = master
 	path = external/qemu
 	url = ../external/qemu
+[submodule "trusty/external/qemu-keycodemapdb"]
+	path = external/qemu-keycodemapdb
+	url = ../external/qemu-keycodemapdb
 [submodule "trusty/external/trusty"]
 	branch = master
 	path = external/trusty
