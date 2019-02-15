@@ -138,6 +138,10 @@
 	branch = master
 	path = trusty/kernel
 	url = ../lk/trusty
+[submodule "trusty/prebuilts/aosp"]
+	branch = master
+	path = trusty/prebuilts/aosp
+	url = ../prebuilts/aosp
 [submodule "trusty/vendor/google/aosp"]
 	branch = master
 	path = trusty/vendor/google/aosp
