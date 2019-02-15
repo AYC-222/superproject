@@ -28,22 +28,27 @@
 	url = ../../platform/hardware/libhardware
 [submodule "platform/prebuilts/clang/host/linux-x86"]
 	branch = master
+	shallow = true
 	path = prebuilts/clang/host/linux-x86
 	url = ../../platform/prebuilts/clang/host/linux-x86
 [submodule "platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8"]
 	branch = master
+	shallow = true
 	path = prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
 	url = ../../platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
 [submodule "platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"]
 	branch = master
+	shallow = true
 	path = prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 	url = ../../platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 [submodule "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"]
 	branch = master
+	shallow = true
 	path = prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
 	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
 [submodule "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"]
 	branch = master
+	shallow = true
 	path = prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 [submodule "platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"]
@@ -53,6 +58,7 @@
 	url = ../../platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
 [submodule "platform/prebuilts/libprotobuf/linux"]
 	branch = trusty
+	shallow = true
 	path = prebuilts/libprotobuf
 	url = ../../platform/prebuilts/libprotobuf/linux
 [submodule "platform/system/gatekeeper"]
@@ -140,6 +146,7 @@
 	url = ../lk/trusty
 [submodule "trusty/prebuilts/aosp"]
 	branch = master
+	shallow = true
 	path = trusty/prebuilts/aosp
 	url = ../prebuilts/aosp
 [submodule "trusty/vendor/google/aosp"]
