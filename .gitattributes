@@ -5,6 +5,7 @@
 /external/googletest trusty
 /external/nanopb-c trusty
 /hardware/libhardware trusty
+/prebuilts/build-tools trusty
 /prebuilts/clang/host/linux-x86 trusty
 /prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8 trusty
 /prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 trusty
