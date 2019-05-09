@@ -131,7 +131,7 @@
 	url = ../external/qemu-keycodemapdb
 [submodule "trusty/external/trusty"]
 	branch = master
-	path = external/trusty
+	path = external/trusty/bootloader
 	url = ../external/trusty
 [submodule "trusty/lib"]
 	branch = master
