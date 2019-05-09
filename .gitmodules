@@ -18,6 +18,10 @@
 	branch = master
 	path = external/googletest
 	url = ../../platform/external/googletest
+[submodule "platform/external/libcxx"]
+	branch = master
+	path = external/libcxx
+	url = ../../platform/external/libcxx
 [submodule "platform/external/nanopb-c"]
 	branch = master
 	path = external/nanopb-c
@@ -122,6 +126,10 @@
 	branch = master
 	path = external/headers
 	url = ../external/headers
+[submodule "trusty/external/musl"]
+	branch = master
+	path = external/trusty/musl
+	url = ../external/musl
 [submodule "trusty/external/qemu"]
 	branch = master
 	path = external/qemu
