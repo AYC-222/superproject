@@ -31,6 +31,7 @@
 /external/trusty/musl trusty
 /external/qemu trusty
 /external/qemu-keycodemapdb trusty
+/external/arm-trusted-firmware trusty
 /external/trusty/bootloader trusty
 /trusty/user/base trusty
 /external/lk trusty

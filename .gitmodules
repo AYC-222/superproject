@@ -137,6 +137,10 @@
 [submodule "trusty/external/qemu-keycodemapdb"]
 	path = external/qemu-keycodemapdb
 	url = ../external/qemu-keycodemapdb
+[submodule "trusty/external/trusted-firmware-a"]
+	branch = master
+	path = external/arm-trusted-firmware
+	url = ../external/trusted-firmware-a
 [submodule "trusty/external/trusty"]
 	branch = master
 	path = external/trusty/bootloader
