@@ -4,6 +4,7 @@
 /external/dtc trusty
 /external/googletest trusty
 /external/libcxx trusty
+/external/libcxxabi trusty
 /external/nanopb-c trusty
 /hardware/libhardware trusty
 /prebuilts/build-tools trusty

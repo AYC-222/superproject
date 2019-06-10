@@ -22,6 +22,10 @@
 	branch = master
 	path = external/libcxx
 	url = ../../platform/external/libcxx
+[submodule "platform/external/libcxxabi"]
+	branch = master
+	path = external/libcxxabi
+	url = ../../platform/external/libcxxabi
 [submodule "platform/external/nanopb-c"]
 	branch = master
 	path = external/nanopb-c
