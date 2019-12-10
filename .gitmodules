@@ -94,6 +94,10 @@
 	branch = master
 	path = trusty/user/app/avb
 	url = ../app/avb
+[submodule "trusty/app/confirmationui"]
+	branch = master
+	path = trusty/user/app/confirmationui
+	url = ../app/confirmationui
 [submodule "trusty/app/gatekeeper"]
 	branch = master
 	path = trusty/user/app/gatekeeper

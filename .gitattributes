@@ -20,6 +20,7 @@
 /system/keymaster trusty
 /tools/repohooks trusty
 /trusty/user/app/avb trusty
+/trusty/user/app/confirmationui trusty
 /trusty/user/app/gatekeeper trusty
 /trusty/user/app/keymaster trusty
 /trusty/user/app/sample trusty
