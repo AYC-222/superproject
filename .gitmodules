@@ -14,6 +14,10 @@
 	branch = master
 	path = external/dtc
 	url = ../../platform/external/dtc
+[submodule "platform/external/freetype"]
+	branch = master
+	path = external/freetype
+	url = ../../platform/external/freetype
 [submodule "platform/external/googletest"]
 	branch = master
 	path = external/googletest
@@ -86,6 +90,10 @@
 	branch = master
 	path = system/keymaster
 	url = ../../platform/system/keymaster
+[submodule "platform/system/teeui"]
+	branch = master
+	path = system/teeui
+	url = ../../platform/system/teeui
 [submodule "platform/tools/repohooks"]
 	branch = master
 	path = tools/repohooks

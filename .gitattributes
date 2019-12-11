@@ -2,6 +2,7 @@
 /external/boringssl trusty
 /external/capstone trusty
 /external/dtc trusty
+/external/freetype trusty
 /external/googletest trusty
 /external/libcxx trusty
 /external/libcxxabi trusty
@@ -18,6 +19,7 @@
 /system/gatekeeper trusty
 /system/iot/attestation trusty
 /system/keymaster trusty
+/system/teeui trusty
 /tools/repohooks trusty
 /trusty/user/app/avb trusty
 /trusty/user/app/confirmationui trusty
