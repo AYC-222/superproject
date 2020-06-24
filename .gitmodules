@@ -1,5 +1,5 @@
 [submodule "kernel/common"]
-	branch = android-trusty-4.19
+	branch = android-trusty-5.4
 	path = external/linux
 	url = ../../kernel/common
 [submodule "platform/external/boringssl"]
