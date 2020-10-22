@@ -22,6 +22,10 @@
 	branch = master
 	path = external/googletest
 	url = ../../platform/external/googletest
+[submodule "platform/external/libcppbor"]
+	branch = master
+	path = external/libcppbor
+	url = ../../platform/external/libcppbor
 [submodule "platform/external/libcxx"]
 	branch = master
 	path = external/libcxx

@@ -4,6 +4,7 @@
 /external/dtc trusty
 /external/freetype trusty
 /external/googletest trusty
+/external/libcppbor trusty
 /external/libcxx trusty
 /external/libcxxabi trusty
 /external/nanopb-c trusty
