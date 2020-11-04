@@ -8,6 +8,7 @@
 /external/libcxx trusty
 /external/libcxxabi trusty
 /external/nanopb-c trusty
+/external/protobuf trusty
 /hardware/libhardware trusty
 /prebuilts/build-tools trusty
 /prebuilts/clang/host/linux-x86 trusty

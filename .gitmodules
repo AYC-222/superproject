@@ -38,6 +38,10 @@
 	branch = master
 	path = external/nanopb-c
 	url = ../../platform/external/nanopb-c
+[submodule "platform/external/protobuf"]
+	branch = master
+	path = external/protobuf
+	url = ../../platform/external/protobuf
 [submodule "platform/hardware/libhardware"]
 	branch = master
 	path = hardware/libhardware
