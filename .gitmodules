@@ -7,7 +7,6 @@
 	path = external/boringssl
 	url = ../../platform/external/boringssl
 [submodule "platform/external/capstone"]
-	branch = master
 	path = external/capstone
 	url = ../../platform/external/capstone
 [submodule "platform/external/dtc"]
